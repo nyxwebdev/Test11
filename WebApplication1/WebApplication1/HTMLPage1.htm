@@ -1,0 +1,55 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<title>Untitled Document</title>
+<style>
+    select.roundedCornerFacePlate
+    {
+        background-color: rgba(205,238,229,0.8);
+        border: 2px solid #ffffff;
+        border-radius: 4px;
+        box-shadow: 0 0 0 1px #3bc7a1;
+        padding: 4px 4px 4px 11px;
+        color: #0a664d;
+        font-family: Calibri, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    select.roundedCornerFacePlate:hover
+    {
+        border: 2px solid #ffffff;
+        color: #24a481;
+        box-shadow: 0 0 0 1px #24a481;
+        background-color: rgba(205,238,229,0.4);
+    }
+
+    select.roundedCornerFacePlate:active
+    {
+        background-color: rgba(205,238,229,0.2);
+        border: 2px solid rgba(205,238,229,0.6);
+        color: #0a664d;
+    }
+
+    /* remove the default border and background colors of the expand button */
+    select.roundedCornerFacePlate::-ms-expand
+    {
+        border-color: transparent;
+        background-color: transparent;
+    }
+</style>
+</head>
+<body>
+<form>
+<div class="demo-toolbar">
+    <select class="roundedCornerFacePlate">
+        <option>Apple</option>
+        <option>Banana</option>
+        <option>Grape</option>
+        <option>Orange</option>
+        <option>Pear</option>
+        <option>Watermelon</option>
+    </select>
+</div>
+</body>
+</html>
